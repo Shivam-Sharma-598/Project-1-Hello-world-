@@ -26,4 +26,4 @@ A simple yet functional project that displays "Hello World" on the screen with s
 
 - Clone the repository:
    ```bash
-   git clone https://github.com/your-username/hello-world.git
+  git clone https://github.com/Shivam-Sharma-598/Project-1-Hello-world-.git
