@@ -55,3 +55,13 @@ body.darkMode{
     background-color: black;
     color: white;
 }
+
+body.darkMode .innerBox{
+    border: 5px solid white;
+}
+
+body.darkMode #button{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+}
