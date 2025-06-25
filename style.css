@@ -3,14 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-.navBar{
-    background-color: #f0f0f0; 
-} 
+body{
+    background-color: whitesmoke;
+}
 
-#toggleBtn {
+#button{
     margin-top: 30px;
     margin-left: 1310px;
     margin-right: 0px;
@@ -20,9 +19,10 @@
     border: 2px solid black;
     border-radius: 25px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-#toggleBtn:hover{
+#button:hover {
     background-color: #dbdbdb;
 }
 
@@ -31,7 +31,6 @@
     justify-content: center;
     align-items: center;
     height: 658px;
-    background-color: #f0f0f0;
 }
 
 .innerBox {
@@ -48,4 +47,11 @@
     font-size: 50px;
     font-family: poppins;
     font-weight: 500;
+}
+
+/* Dark Mode */
+
+body.darkMode{
+    background-color: black;
+    color: white;
 }
